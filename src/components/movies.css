@@ -85,3 +85,22 @@ body{
 .LightThemeClose{
   color: #ff206e;
 }
+
+/*
+*============================== MEDIA QUERIES ===============================
+^=============================================================================
+*/
+
+@media screen and ( max-width: 1024px) {
+ .mainBgColor, .secondaryBgColor{
+  overflow: hidden;
+ }
+ .movies-container{
+  overflow: hidden;
+ }
+ #container{
+  justify-content: center;
+  align-items: center;
+  padding-right: 1rem;
+ }
+}
