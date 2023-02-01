@@ -36,7 +36,7 @@ const TvShows = () => {
    console.log(showData);
 
    const tvShowTitle = (movie) =>{
-    setTitle(title);
+    setTitle(movie);
     setTrailer(!trailer);
    }
 
