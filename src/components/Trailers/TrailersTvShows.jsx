@@ -8,6 +8,7 @@ const TrailersTvShows = ( { tvShowTitle } ) => {
   const [ videoURL, setVideoURL ] = useState('');
 
   function handleSearch() {
+    console.log(tvShowTitle);
     setVideo(tvShowTitle);
     movieTrailer(video).then(res => {
       console.log(res);
