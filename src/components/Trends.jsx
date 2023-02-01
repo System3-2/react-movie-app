@@ -45,7 +45,7 @@ const Trends = () => {
         console.log(poster_path);
         return (
          <div id={ trailer ? 'container' : 'NoContainer'}>
-            <AiFillPlayCircle color='#fff' fontSize={40} id={ trailer ? 'playIcon' : 'hide'} onClick={() => trendsTitle(movie)}/>
+            <AiFillPlayCircle color='#fff' fontSize={40} id={ trailer ? 'playIcon' : 'hide'} onClick={() => trendsTitle(title)}/>
             <img src={ poster_path ? images+poster_path : 'https://media.istockphoto.com/id/1357365823/vector/default-image-icon-vector-missing-picture-page-for-website-design-or-mobile-app-no-photo.jpg?s=612x612&w=0&k=20&c=PM_optEhHBTZkuJQLlCjLz-v3zzxp-1mpNQZsdjrbns='} alt={ title } />
             <h3 className={ toggle ? 'DarkTheme' : 'LightThemeClose'} >{ title}</h3>
          </div>
